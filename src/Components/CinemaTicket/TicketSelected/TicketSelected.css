@@ -1,0 +1,43 @@
+.ticket-selected ul {
+    list-style: none;
+}
+.ticket-selected ul li{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.ticket-selected  .ticket-type {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.ticket-selected .tiket-txt {
+    color: white;
+    font-weight: 500;
+}
+
+.ticket-selected  .orange {
+    background-color: orange;
+}
+
+.ticket-selected .green {
+    background-color: green;
+}
+.ticket-selected .ticket-body {
+    color: orange;
+    font-weight: 900;
+    font-size: 1.3rem;
+}
+
+.btn-close {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+.btn-close i {
+    color: red;
+    font-size: 30px;
+}

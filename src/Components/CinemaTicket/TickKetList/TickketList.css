@@ -1,0 +1,12 @@
+.ticket-list {
+    display: grid;
+    grid-template-columns: repeat(13, 50px);
+    grid-row-gap: 5px;
+}
+
+.firstChar{
+    color: yellow;
+    font-size: 35px;
+    margin-right: 15px;
+
+}

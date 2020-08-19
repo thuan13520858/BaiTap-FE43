@@ -1,0 +1,23 @@
+.ticket {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 1px 2px 1px orange;
+    font-weight: 500;
+    user-select: none;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.isSelected {
+    background-color: orange;
+    box-shadow: none;
+    cursor: not-allowed;
+}
+.isSelecting,.ticket:hover:not(.isSelected) {
+    background-color: green;
+    box-shadow: none;
+}

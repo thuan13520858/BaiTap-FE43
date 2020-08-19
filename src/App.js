@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
-import BurgerMain from './Components/BurgerStore/BurgetMain'
+import CinemaTicket from './Components/CinemaTicket';
 
 function App() {
   return (
     <div className="App">
-      <BurgerMain />
+      <CinemaTicket />
     </div>
   );
 }
